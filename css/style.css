@@ -1,0 +1,16 @@
+[class*="col-"]{
+  border: 1px solid black;
+  height:50px;
+}
+
+
+
+
+
+.jumbotron{
+  background-color: blue;
+  color: white;
+  text-align: center;
+  height: 300px;
+
+}
