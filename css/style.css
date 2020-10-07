@@ -1,4 +1,4 @@
-
+/* navbar */
 #top_header {
   position: fixed;
   top: 0;
@@ -6,15 +6,27 @@
   background-color: white;
   z-index: 2;
 }
+
+header .navbar .logo_navbar{
+  height: 30px;
+}
+
+header .navbar a:not(.my_button){
+  display: inline-block;
+  padding: 0 1rem;
+  line-height: 30px;
+  color: #021845
+}
+header .navbar li{
+  display: inline-block;
+}
+
 header .nav-bar li a:hover {
   text-decoration: none;
   color: #0061FE;
 
 }
-.nav-pills{
-  float:right;
-  margin-right: 20px;
-}
+
 
 li, a {
   display: inline;
