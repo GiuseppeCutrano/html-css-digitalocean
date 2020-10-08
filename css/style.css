@@ -13,7 +13,7 @@ header .navbar .logo_navbar{
   height: 30px;
 }
 
-header .navbar a:not(.my_button){
+header .navbar a:not(.buttonmy){
   display: inline-block;
   padding: 0 1rem;
   line-height: 30px;
@@ -28,7 +28,6 @@ header .nav-bar li a:hover {
   color: #0061FE;
 
 }
-
 
 li, a {
   display: inline;
@@ -45,48 +44,146 @@ li, a {
 .glyphicon-menu-hamburger {
   margin: 1rem;
   color: #2285fd;
+  height: 2rem;
+
 }
 
 .jumbotron{
-  background-image: url("../img/jumbo.svg");
+  margin-top: 50px;
+  background-image: url(../img/jumbo.svg);
   background-size: cover;
-  color: white;
+  margin-bottom: 0;
+}
+.jumbotron .form{
+  background-color: white;
+  padding: 30px 10px;
+  border-radius: 5px;
 
 }
-
-.jumbotron{
-
-  color: white;
-  text-align: left;
-  height: 400px;
-
+.jumbotron .form input{
+ line-height: 3rem;
+ border: 1px solid lightgrey;
+ border-radius: 5px;
+}
+.jumbotron .form *{
+  width: 100%;
+  margin: 5px 0;
 }
 
-.jumbotron .form-jumbo{
-  text-align: center;
-
+.jumbotron .term_service{
+  font-size: 1.1rem;
 }
 
-.jumbotron h2{
-  font-size: 40px;
+
+
+/* partners */
+#partners,
+#partners h3{
+  font-size: 1.3rem;
 }
 
-.jumbotron p{
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 25px;
+#partners{
+  background-color: #F3F5F9;
 }
 
-.jumbotron h2{
-  font-size: 50px;
-  font-weight: 900;
+/* fine regole sezione dei partner */
+
+ /* deploy */
+
+#deploy h5{
+  line-height: 2rem;
+}
+#deploy li{
+  width:80px;
+  height: 40px;
+  border-left: 1px solid #697795;
+  display:block;
+  padding-left: 1rem;
+
+}
+#deploy li > a {
+  line-height: 40px;
+  color: #697795;
+}
+#deploy .icon_box{
+  height: 150px;
 }
 
-/* button */
-.create-account{
+
+
+
+#designed,#development{
+  background-color: #F3F5F9;
+}
+
+#designed h5,
+#development h5{
+  line-height: 2rem;
+}
+#designed i{
+  font-size: 2rem;
+}
+
+#features .icon_box{
+  margin-top: 30px;
+}
+
+
+
+
+
+
+#table{
+  background-image: linear-gradient(#0048c6,#001e9a);
+}
+#table .table_riga{
+  line-height: 35px;
+}
+#table .table_riga:not(.last){
+  border-bottom: 1px solid white;
+}
+
+
+.test-color{
+  color:white;
+}
+
+#started {
+  background-image: linear-gradient(#0048c6,#001e9a);
+}
+
+
+
+footer {
+  background-color:  #031c4e;
+  color: #7a859d;
+  font-size: 1.2rem;
+}
+
+footer .icona_ocean{
+  width: 40px;
+}
+footer .box_link_footer .title_link_footer{
+  font-size: 1.3rem;
+}
+
+footer .social-contact i{
+  font-size: 2rem;
+}
+footer ul li a{
+  line-height: 2.5rem;
+  color: #7a859d;
+}
+
+.buttonmy{
+  color: #046fff;
+  border: 1px solid #046fff;
+}
+.buttonmy_create_account{
   background-color: #046fff;
   color: white;
 }
-.form-group .sign_google{
+.form .buttonmy_signin_google{
   background-color: white;
   color: black;
   border-left: 0;
@@ -95,97 +192,19 @@ li, a {
   border-bottom: 1px solid darkgrey;
 }
 
-#partners h4{
-  font-size: 2rem;
+.text_white{
+  color:white;
 }
 
-/* form nel jumbo */
-.jumbotron .row{
-  padding: 20px 0;
+.pd40{
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-.form-jumbo{
-  background-color: white;
-  width: 90%;
-  margin:5px 5%;
-  padding: 10px 0;
-  color: black;
 
+.color-designed{
+  color: #031c4e;
 }
-
-.jumbotron .form-jumbo h2{
-  font-size: 30px;
-  font-weight: 400;
-}
-
-.jumbotron .form-jumbo h3{
-  font-size: 30px;
-  color: blue;
-}
-
-.jumbotron .form-jumbo .form-control{
-  width: 90%;
-  margin: 0 5% ;
-}
-
-.jumbotron .form-jumbo .btn-default{
-  background-color: #0069ff;
-  width: 90%;
-  color: white;
-  margin-bottom: 10px;
-}
-
-.jumbotron .form-jumbo #sign-up-google{
-  background-color: white;
-  border: solid 1px;
-
-}
-
-/* deploy */
-
-#deploy li{
-  width:80px;
-  height: 40px;
-  padding-left: 1rem;
-  border-left: 1px solid #697795;
-  display: block;
-}
-#deploy li >a {
-  line-height: 40px;
-  color: #697795;
-}
-#deploy .icon-box{
-  height: 150px;
-}
-
-#esigned{
-  background-color: #F3F5F9;
-}
-#designed .screen{
-  width: 100%;
-}
-#designed h5{
-  line-height: 2rem;
-}
-#designed i.fa {
-  margin-top: 150px;
-}
-#designed p{
-text-align: center;
-margin-top: 5px;
-}
-.grey{
-  background-color: #F3F5F9;
-}
-/* height */
-.h_550{
-  height: 500px;
-}
-
-.h_500{
-  height: 500px;
-}
-
-.h_200{
-  height: 200px;
+.form-color{
+  color: #046fff;
 }
