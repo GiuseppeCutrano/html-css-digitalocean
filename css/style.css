@@ -1,3 +1,5 @@
+
+
 /* navbar */
 #top_header {
   position: fixed;
@@ -48,15 +50,20 @@ li, a {
 .jumbotron{
   background-image: url("../img/jumbo.svg");
   background-size: cover;
-
   color: white;
+
 }
 
 .jumbotron{
 
   color: white;
-  text-align: center;
+  text-align: left;
   height: 400px;
+
+}
+
+.jumbotron .form-jumbo{
+  text-align: center;
 
 }
 
@@ -74,7 +81,23 @@ li, a {
   font-weight: 900;
 }
 
+/* button */
+.create-account{
+  background-color: #046fff;
+  color: white;
+}
+.form-group .sign_google{
+  background-color: white;
+  color: black;
+  border-left: 0;
+  border-top: 0;
+  border-right: 1px solid darkgrey;
+  border-bottom: 1px solid darkgrey;
+}
 
+#partners h4{
+  font-size: 2rem;
+}
 
 /* form nel jumbo */
 .jumbotron .row{
@@ -86,8 +109,8 @@ li, a {
   width: 90%;
   margin:5px 5%;
   padding: 10px 0;
-  border-radius: 10px;
   color: black;
+
 }
 
 .jumbotron .form-jumbo h2{
@@ -118,11 +141,43 @@ li, a {
 
 }
 
-/* main */
-.grey{
-  background-color: #f3f5f9
+/* deploy */
+
+#deploy li{
+  width:80px;
+  height: 40px;
+  padding-left: 1rem;
+  border-left: 1px solid #697795;
+  display: block;
+}
+#deploy li >a {
+  line-height: 40px;
+  color: #697795;
+}
+#deploy .icon-box{
+  height: 150px;
 }
 
+#esigned{
+  background-color: #F3F5F9;
+}
+#designed .screen{
+  width: 100%;
+}
+#designed h5{
+  line-height: 2rem;
+}
+#designed i.fa {
+  margin-top: 150px;
+}
+#designed p{
+text-align: center;
+margin-top: 5px;
+}
+.grey{
+  background-color: #F3F5F9;
+}
+/* height */
 .h_550{
   height: 500px;
 }
@@ -133,12 +188,4 @@ li, a {
 
 .h_200{
   height: 200px;
-}
-
-
-
-
-.blue{
-
-  background-color: blue;
 }
