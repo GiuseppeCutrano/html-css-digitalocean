@@ -1,13 +1,6 @@
 
 
-/* navbar */
-#top_header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: white;
-  z-index: 2;
-}
+
 
 header .navbar .logo_navbar{
   height: 30px;
@@ -129,7 +122,9 @@ li, a {
 }
 
 
-
+#table{
+  background-image: linear-gradient(#0048c6,#001e9a);
+}
 
 
 
@@ -154,25 +149,14 @@ li, a {
 
 
 
-footer {
-  background-color:  #031c4e;
-  color: #7a859d;
-  font-size: 1.2rem;
-}
 
-footer .icona_ocean{
+
+footer .icon_ocean{
   width: 40px;
 }
-footer .box_link_footer .title_link_footer{
-  font-size: 1.3rem;
-}
 
-footer .social-contact i{
-  font-size: 2rem;
-}
-footer ul li a{
-  line-height: 2.5rem;
-  color: #7a859d;
+footer{
+  background-color:  #031c4e;
 }
 
 .buttonmy{
